@@ -1,0 +1,144 @@
+
+body,h1,h2,h3,p{
+
+   margin:4;   
+}
+
+
+header{
+    display: flex;
+    height: 90px;
+    background-color: #AC294B;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 100px;
+    margin-right: 10px;
+    font-size: 4em;
+    font-weight: bold; 
+
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+nav a:hover{
+    color; pink;
+}
+
+h1{
+    font-weight: 400;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2{
+  font-weight: 100;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3{
+  color: black;
+  font-family: "Pacifico", cursive;
+}
+
+p{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #AC294B; 
+
+}
+
+
+img src{
+  padding: 50px 2opx;
+  justify-content: riz;
+}
+
+/* footer */
+ 
+footer{
+   background: #AC294B;
+   padding: 60px 0 30px 0;
+   margin: auto;
+   overflow: hidden;
+}
+ 
+.contenedor-footer{
+   display: flex;
+   width: 90%;
+   justify-content: space-evenly;
+   margin: auto;
+   padding-bottom: 50px;
+   border-bottom: 1px solid #ccc;
+}
+ 
+.content-foo{
+   text-align: center;
+}
+ 
+.content-foo h4{
+   color: #fff;
+   border-bottom: 3px solid red;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+}
+ 
+.content-foo p{
+   color: #ccc;
+}
+ 
+.titulo-final{
+   text-align: center;
+   font-size: 24px;
+   margin: 20px 0 0 0;
+   color: #9e9797;
+}
+ 
+@media screen and (max-width:900px){
+   header{
+       background-position: center;
+   }
+ 
+   .contenedor-sobre-nosotros{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+ 
+   .sobre-nosotros .contenido-textos{
+       width: 90%;
+   }
+ 
+   .imagen-about-us{
+       width: 500%;
+   }
+ 
+
+
+
